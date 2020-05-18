@@ -1,0 +1,20 @@
+copied from webpack-babel-react-template: {
+  npm init -y
+  mkdir -p src/client
+  mkdir -p dist
+  touch ./src/index.html ./src/index.js ./src/client/App.js .babelrc webpack.config.js .gitignore
+
+  Populated .babelrc, webpack.config.js, .gitignore
+
+  Populated App.js, index.html, and index.js.
+  Added start and build scripts to package.json
+
+  Installed dependencies
+}
+
+npm install eslint --save-dev
+npx eslint --init
+  using airbnb styleguide
+npm install eslint-loader --save-dev
+Created .eslintrc.js
+Made styling changes as suggested(enforced) by eslint.
