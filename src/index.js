@@ -1,3 +1,1 @@
-import App from './client/App';
-
-console.log('App to keep eslint from complaining: ', App);
+import App from './client/App';// eslint-disable-line no-unused-vars
